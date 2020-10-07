@@ -1,6 +1,6 @@
 from socket import socket,AF_INET,SOCK_STREAM
 s=socket(AF_INET,SOCK_STREAM)
-ip='77.69.189.10'
+ip='*******'
 port=4000
 s.connect((ip,port))
 while True:
